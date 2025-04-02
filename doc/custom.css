@@ -1,0 +1,37 @@
+.header {
+  background-color: midnightblue;
+}
+
+.header a:link, .header a:visited, .header a:hover, .header a:active, .header_item {
+  color: gold;
+}
+
+.header_item.selected {
+  text-decoration-color: red !important;
+}
+
+.sidebar {
+  border-color: red;
+  background-color: aliceblue;
+}
+
+.sidebar_item.selected, .sidebar_item_inline.selected {
+  text-decoration-color: red;
+}
+
+.sidebar_item:hover, .sidebar_item_inline:hover {
+  background-color: bisque;
+}
+
+.table-compact + table th, .table-compact + table td {
+  padding-top: 0;
+  padding-bottom: 3px;
+}
+
+.table-center-header + table th {
+  text-align: center;
+}
+
+.bg-y {
+    background-color: lemonchiffon;
+}

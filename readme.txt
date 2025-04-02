@@ -1,0 +1,12 @@
+<!--VARIABLES {"noPageTitle": true}-->
+
+<p><img src="<!--path pict-->logo.png" class="floatRight" /></p>
+
+Serbian governmental resources are explored and described.
+Efforts have been made to reflect the results as accurately as possible, but no accuracy and
+applicability guarantees are provided... References for further exploration are provided instead
+:)
+
+<p style="clear: both;"></p>
+
+

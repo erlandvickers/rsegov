@@ -1,0 +1,161 @@
+<!--VARIABLES {"title": "Taxes", "SORT_ORDER": "020", "code": "taxes"}-->
+
+[TOC]
+
+----------------------------------------------------------------------------------------------------
+<!--index ["еПорези", "ePorezi"]-->
+# еПорези {#eporezi}
+
+<https://eporezi.purs.gov.rs/>
+
+Place for monitoring and managing taxation state, like additional taxes calculations and payments.
+
+![](<!--path pict-->e_porezi_rs_1.png){.w-fit .img-frame}
+
+[ConsentID](<!--page resources-->#consentid) is required to access this resource. "Mobile application"
+logging in option
+(see [here](<!--page resources-->#identification)) may be used. Login with password doesn't work.
+
+The tax payer list may be empty initially (i.e. only the blue table header is shown).
+See [here](<!--page troubleshooting-->#tax_payer_list_is_empty) for troubleshooting.
+
+----------------------------------------------------------------------------------------------------
+<!--index ["PIB", "ПИБ", "taxes"]-->
+# PIB
+
+[Правилник о пореском идентификационом броју](
+http://www.purs.gov.rs/pravna-lica/pregled-propisa/pravilnici/126/pravilnik-o-poreskom-identifikacionom-broju-.html)
+(Rulebook on tax identification number):
+
+> ПИБ се одређује и додељује у Централи Пореске управе за све пореске обвезнике у Републици.
+> 
+> ПИБ се јединствено означава у нумеричком облику.
+> 
+> ПИБ за резидентна физичка лица која нису предузетници и за обвезнике пореза и доприноса на
+> приходе од пољопривреде и шумарства, састоји се од 13 цифара и представља јединствени матични
+> број грађана (у даљем тексту: ЈМБГ) додељен од стране Министарства унутрашњих послова,
+> у складу са законом.
+> 
+> The PIB is determined and assigned at the Tax Administration Headquarters for all taxpayers
+> in the Republic.
+> {style="border-top: solid gray 1px;"}
+> 
+> The PIB is uniquely designated in numerical form.
+> 
+> The PIB for resident natural persons who are not entrepreneurs and for taxpayers of taxes and
+> contributions on income from agriculture and forestry consists of 13 digits and represents
+> a unique citizen identification number (hereinafter: JMBG) assigned by the Ministry of Internal
+> Affairs, in accordance with the law.
+
+Also see [JMBG](<!--page resources-->#jmbg).
+
+----------------------------------------------------------------------------------------------------
+<!--index ["ПП ГПДГ", "PP GPDG"]-->
+# ПП ГПДГ {#pp_gpdg}
+
+!!! note
+    Filling and filing this form is now **in progress**. Some explanatory info is provided below.
+
+[50. Како да активирам налог на порталу еПорези у циљу подношења ПП ГПДГ пријаве?](
+http://www.purs.gov.rs/kontakt/kontakt-centar/pitanja-i-odgovori.html) (50. How do I activate an
+account on the ePorezi portal in order to submit a PP GPDG return?):
+
+> Физичка лица за које Пореска управа поднесе унапред попуњену пореску пријаву ПП ГПДГ, аутоматски
+> имају активиран налог на порталу Пореске управе еПорези.
+> 
+> Лица којима није активиран налог на порталу Пореске управе еПорези, а остварила су доходак за
+> опорезивање годишњим порезом на доходак грађана, који умањен за плаћене порезе и доприносе
+> прелази износ од 4.874.508 динара, у обавези су да сами попуне и поднесу пореску пријаву за
+> годишњи порез на доходак грађана за 2024. годину у електронском облику најкасније
+> до 15. маја 2025. године. Да би исти могли поднети пореску пријаву ПП ГПДГ претходно је потребно
+> да се региструју као порески обвезници.
+> 
+> Први корак у поступку регистрације је попуњавање основних података о пореском обвезнику преко
+> форме за регистрацију на порталу еПорези (део – Регистрација физичког лица као пореског обвезника)
+> којем се приступа помоћу квалификованог електронског сертификата. Након 24 сата од извршене
+> регистрације, од стране Пореске управе, овим обвезницима биће омогућено да у делу „Избор пријаве“
+> одаберу пореску пријаву ПП ГПДГ, и попуне избором опције „Текстуални унос“.
+> 
+> Они порески обвезници који не виде форму за регистрацију на порталу, потребно је да податке -
+> име, презиме, јединствени матични број грађана и контакт телефон - пошаљу преко адресе
+> електронске поште <evidentiranje.stranci@purs.gov.rs>. После добијене потврде о извршеној
+> регистрацији, која се обвезнику шаље на адресу његове електронске поште, налог на порталу
+> еПорези биће активан истог дана после 17 часова, након чега ће бити могуће поднети пореску
+> пријаву на напред наведен начин.
+> 
+> Individuals for whom the Tax Administration submits a pre-filled PP GPDG tax return
+> automatically have an activated account on the Tax Administration's ePorezi portal.
+> {style="border-top: solid gray 1px;"}
+> 
+> Individuals who do not have an activated account on the Tax Administration's ePorezi portal,
+> and who have earned income subject to annual personal income tax, which, reduced by paid taxes
+> and contributions, exceeds the amount of 4,874,508 dinars, are required to complete and
+> submit their annual personal income tax return for 2024 in electronic form no later than
+> May 15, 2025. In order to be able to submit a PP GPDG tax return, they must first register
+> as taxpayers.
+> 
+> The first step in the registration process is to fill in the basic data about the taxpayer
+> via the registration form on the ePorezi portal (section – Registration of a natural person
+> as a taxpayer) which is accessed using a qualified electronic certificate. After 24 hours
+> from the registration, the Tax Administration will allow these taxpayers to select the
+> PP GPDG tax return in the “Избор пријаве” section, and fill it in by selecting the
+> “Текстуални унос” option.
+> 
+> Those taxpayers who do not see the registration form on the portal need to send their data -
+> name, surname, unique citizen identification number and contact phone number - via the
+> e-mail address <evidentiranje.stranci@purs.gov.rs>. After receiving confirmation of completed
+> registration, which is sent to the taxpayer's email address, the account on the ePorezi portal
+> will be active on the same day after 5 p.m., after which it will be possible to submit
+> a tax return in the manner described above.
+
+Also see:
+
+- [еПорези portal](<!--page taxes-->#eporezi)
+- Other questions in the above FAQ searched by "ПП ГПДГ", e.g.:
+    - "53. Да ли су у пореској пријави ПП ГПДГ аутоматски попуњени износи личних одбитака
+        за пореског обвезника и за издржаване чланове породице?"
+        (53. Are the amounts of personal deductions for the taxpayer and for dependent family
+        members automatically filled in in the PP GPDG tax return?). --- Shortly speaking, yes for
+        for the tax payer, and no for the dependants.
+
+----------------------------------------------------------------------------------------------------
+<!--index ["tax debt report", "debt, tax, report"]-->
+# Tax debt report
+
+At the [еУправа portal](<!--page resources-->#euprava) main page, click on the "Моји подаци" tile,
+choose the "Пореска управа РС" section and click on the "Нови захтев" button:
+
+![](<!--path pict-->poreska_uprava_zahtev.png){.w-fit .img-frame}   
+
+A new request record will appear and its state changes from "ПОДНЕТ" to "УСПЕШНО ЗАВРШЕН" clicking
+the gray circle with down arrow will open a PDF report like this:
+
+![](<!--path pict-->tax_debt_report.png){.w-fit .img-frame} 
+
+----------------------------------------------------------------------------------------------------
+# Useful links
+
+**Упутства и обрасци** <http://www.purs.gov.rs/e-porezi/Uputstva.html>:
+
+- [Корисничко упутство за подношење пореске пријаве о обрачунатом годишњем порезу на доходак грађанa ( pdf | 1,1MB)](
+    http://www.purs.gov.rs/upload/media/2025/2/4/611492/KorisnickouputstvozapodnosenjeprijavePPGPDG.pdf){.doc}
+    ([saved](<!--path mat-->KorisnickouputstvozapodnosenjeprijavePPGPDG.pdf){.doc}). This is an old
+    instruction describing tax application procedure (the "ПП-ГПДГ" form) in 2023 for income
+    obtained in 2022.
+    But it looks relevant enough to be used in 2025 (for income obtained in 2024) so may
+    probably be used (with caution) if no newer ones are available
+- Also see the other links in the sidebar, like:
+    - "Портал еПорези" --- the home page with common information
+    - "Најчешће постављана питања" (FAQ)
+    - "Како постати корисник ?" (how to become a user)
+
+**ПИБ регистар** <http://www.purs.gov.rs/pib.html>:
+
+![](<!--path pict-->pib_register.png){.w-fit .img-frame} 
+
+Enter the PIB and move the red arrow to the right so that it becomes green and the "Тражи" button
+is activated. If the account exists its main data will be shown.
+
+
+
+

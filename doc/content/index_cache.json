@@ -1,0 +1,78 @@
+{
+  "readme.html": [],
+  "doc/content/sections/resources.html": [
+    {
+      "entry": "JMBG",
+      "link": "sections/resources.html#index_entry_index_jmbg_jshj",
+      "title": "\u0435\u0423\u043f\u0440\u0430\u0432\u0430"
+    },
+    {
+      "entry": "J\u041c\u0411\u0413",
+      "link": "sections/resources.html#index_entry_index_jmbg_jshj",
+      "title": "\u0435\u0423\u043f\u0440\u0430\u0432\u0430"
+    },
+    {
+      "entry": "ConsentID",
+      "link": "sections/resources.html#index_entry_index_consentid",
+      "title": "\u0435\u0423\u043f\u0440\u0430\u0432\u0430"
+    },
+    {
+      "entry": "\u0435\u0423\u043f\u0440\u0430\u0432\u0430",
+      "link": "sections/resources.html#index_entry_index_lzvwgig_euprava",
+      "title": "\u0435\u0423\u043f\u0440\u0430\u0432\u0430"
+    },
+    {
+      "entry": "eUprava",
+      "link": "sections/resources.html#index_entry_index_lzvwgig_euprava",
+      "title": "\u0435\u0423\u043f\u0440\u0430\u0432\u0430"
+    }
+  ],
+  "doc/content/sections/taxes.html": [
+    {
+      "entry": "\u0435\u041f\u043e\u0440\u0435\u0437\u0438",
+      "link": "sections/taxes.html#index_entry_index_lvuwlno_eporezi",
+      "title": "Taxes"
+    },
+    {
+      "entry": "ePorezi",
+      "link": "sections/taxes.html#index_entry_index_lvuwlno_eporezi",
+      "title": "Taxes"
+    },
+    {
+      "entry": "PIB",
+      "link": "sections/taxes.html#index_entry_index_pib_voh_taxes",
+      "title": "Taxes"
+    },
+    {
+      "entry": "\u041f\u0418\u0411",
+      "link": "sections/taxes.html#index_entry_index_pib_voh_taxes",
+      "title": "Taxes"
+    },
+    {
+      "entry": "taxes",
+      "link": "sections/taxes.html#index_entry_index_pib_voh_taxes",
+      "title": "Taxes"
+    },
+    {
+      "entry": "\u041f\u041f \u0413\u041f\u0414\u0413",
+      "link": "sections/taxes.html#index_entry_index_vv_jvkj_pp_gpdg",
+      "title": "Taxes"
+    },
+    {
+      "entry": "PP GPDG",
+      "link": "sections/taxes.html#index_entry_index_vv_jvkj_pp_gpdg",
+      "title": "Taxes"
+    },
+    {
+      "entry": "tax debt report",
+      "link": "sections/taxes.html#index_entry_index_tax_debt_report_debt_tax_report",
+      "title": "Taxes"
+    },
+    {
+      "entry": "debt, tax, report",
+      "link": "sections/taxes.html#index_entry_index_tax_debt_report_debt_tax_report",
+      "title": "Taxes"
+    }
+  ],
+  "doc/content/sections/troubleshooting.html": []
+}

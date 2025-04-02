@@ -1,0 +1,101 @@
+<!--VARIABLES {"title": "Troubleshooting", "SORT_ORDER": "030", "code": "troubleshooting"}-->
+
+[TOC]
+
+----------------------------------------------------------------------------------------------------
+# Tax payer list is empty {#tax_payer_list_is_empty}
+
+At the [еПорези](https://eporezi.purs.gov.rs/) site the tax payer list is empty:
+
+![](<!--path pict-->e_porezi_rs.png){.w-fit .img-frame}
+
+This may probably be common for all users who log in the first time.
+
+The following email correspondence solved this issue (auto translation was used so some
+wording may be not perfect). The first email address <eporezi@purs.gov.rs> was found at
+<http://www.purs.gov.rs/e-porezi/pitanja.html>:
+
+> **9. Коме могу да се обратим за помоћ у вези електронског подношења пореских пријава?**
+> 
+> Помоћ се може добити и путем адресе електронске поште путем eporezi@purs.gov.rs.
+
+Probably the address <evidentiranje.stranci@purs.gov.rs> could be used instead from the very
+beginning, also see [this FAQ](<!--page taxes-->#pp_gpdg).
+
+> **from:** [the user's email]    
+> **to:** eporezi@purs.gov.rs    
+> **date:** Mar 26, 2025    
+> **subject:** Порески обвезник није наведен    
+> 
+> Добар дан, тим, на мом налогу на сајту еПорези (https://eporezi.purs.gov.rs/?pib=[pib]) није
+> наведен порески обвезник. Можете ли да проверите и додате ову запис?
+> 
+> [screenshot]
+> 
+> С поштовањем    
+> [name]
+> 
+> **from:** eporezi@purs.gov.rs    
+> **to:** [the user's email]    
+> **date:** Mar 26, 2025    
+> **subject:** RE: [some number]    
+> {style="border-top: solid gray 1px;"}
+> 
+> Poštovani,
+> 
+> Potrebno je da budete registrovani u sistemu PU, za to su neophodne skenirane verzije sledećih
+> dokumenata:
+> 
+> - Uverenje MUP-a (beli karton), može i prijava na osiguranje ili drugi dokument gde se vidi adresa
+>     prebivališta
+> - Pasoš (prva strana),
+> - Privremeni boravak (stranica iz pasoša ili skenirana lična karta)
+> 
+> Zahtev za registraciju i dokumentaciju pošaljite na adresu <evidentiranje.stranci@purs.gov.rs>.
+> 
+> Nakon što dobijete obaveštenje o izvršenoj registraciji, podaci će biti aktivni posle 17h.
+> 
+> S poštovanjem,    
+> Tehnička podrška PU
+> 
+> **from:** [the user's email]    
+> **to:** evidentiranje.stranci@purs.gov.rs    
+> **date:** Mar 26, 2025    
+> **subject:** Fwd: [some number]    
+> {style="border-top: solid gray 1px;"}
+> 
+> Draigi tim, hvala na odgovor,
+> 
+> Prilažem skenirane dokumente potrebne za registraciju:
+> 
+> - Beli karton
+> - Prva stranica pasoša
+> - Privremeni boravak (kartica)
+> - Privremeni boravak (štampa od čitača)
+> 
+> S poštovanjem    
+> [name]
+> 
+> **from:** evidentiranje.stranci@purs.gov.rs    
+> **to:** [the user's email]    
+> **date:** Mar 28, 2025    
+> **subject:** RE: [some number]    
+> {style="border-top: solid gray 1px;"}
+> 
+> Регистровано.
+> 
+> С поштовањем,
+
+Probably, "Privremeni boravak (kartica)" (just a photo of the personal card, lična karta)
+was not required and only "štampa od čitača" (the A4 sheet obtained from the card reader)
+would be enough. 
+
+The the tax payer record appeared in the list, see [here](<!--page taxes-->#eporezi).
+
+
+
+
+
+
+
+

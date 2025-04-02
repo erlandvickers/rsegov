@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>еУправа</title>
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../layout/content.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/content_theme.css">
+<link rel="stylesheet" type="text/css" href="../../layout/layout.css">
+<link rel="stylesheet" type="text/css" href="../../themes/light/layout_theme.css">
+<link rel="stylesheet" type="text/css" href="../../custom.css">
+
+<link rel="stylesheet" type="text/css" href="../../layout/flex.css">
+</head>
+<body>
+
+<div class="header">
+<img id="burger" src="../../layout/pict/burger.png" 
+onclick="toggleSidebar();return false;" class="toggle_narrow_only_inline" alt="Sidebar">
+
+<a 
+class="header_item "
+href="../../../readme.html"><img 
+class="logo_image" src="../../favicon.png" alt="Logo"></a><a 
+class="header_item toggle_wide_only_inline"
+href="../../../readme.html"><span class="">Home</span></a><a 
+class="header_item toggle_wide_only_inline"
+href="../index_page.html"><span class="">Index</span></a><a 
+class="header_item toggle_narrow_only_inline"
+href="../index_page.html"><img 
+class="header_image index_image" src="../../layout/pict/search.png" alt="Index"></a>
+<a href="../../../doc_src/sections/resources.txt" class="source_file toggle_wide_only_inline" title="Source text">&lt;/&gt;</a>
+
+<a href="../../../readme.html" title="Previous: Home"><img class="headerNavArrows"
+src="../../layout/pict/previous_page_h21px.png" alt="Back"></a>
+ 
+<a href="taxes.html" title="Next: Taxes"><img class="headerNavArrows"
+src="../../layout/pict/next_page_h21px.png" alt="Next"></a>
+
+
+<span class="headerTitle">еУправа</span>
+
+</div>
+
+<div class="sidebarWrapper">
+<div class="sidebar">
+    <table class="sidebarAligner">
+        <tr><td class="valign_top">
+            <div class="align_right toggle_narrow_only_block">
+            <a href="../../../doc_src/sections/resources.txt" class="sidebar_item_inline source_file align_right" 
+                title="Source text">&lt;/&gt;</a>
+            
+            </div>
+            <div class="sidebar_block">
+            
+            <a class="sidebar_item " href="../../../readme.html">Home</a>
+            <a class="sidebar_item selected " href="resources.html">еУправа</a>
+            <a class="sidebar_item " href="taxes.html">Taxes</a>
+            <a class="sidebar_item " href="troubleshooting.html">Troubleshooting</a>
+            </div><div class="sidebar_block">
+            
+            </div>
+        </td></tr>
+        <tr><td class="bottom valign_bottom">        </td></tr>
+    </table>
+</div>
+</div>
+
+<p class="page-title">еУправа</p>
+
+<div class="toc">
+<ul>
+<li><a href="#identification">Identification</a></li>
+<li><a href="#jmbg">JMBG</a></li>
+<li><a href="#consentid">ConsentID</a></li>
+<li><a href="#euprava">еУправа</a></li>
+</ul>
+</div>
+<hr />
+<h1 id="identification">Identification</h1>
+<p><a href="https://eid.gov.rs/">https://eid.gov.rs/</a></p>
+<p><img alt="" class="w-fit img-frame" src="../../pict/eid_gov_rs_home.png" /></p>
+<p><img alt="" class="w-fit img-frame" src="../../pict/eid_gov_rs.png" /></p>
+<ul>
+<li>Login with a username and password is a basic security login.
+    <a href="materials/Uputstvo_Za_prijavu_korisnickim_imenom_i_lozinkom.pdf">Instruction</a>.</li>
+<li>Logging in with a qualified electronic certificate is a high level of trust.</li>
+<li>Logging in with a mobile phone is done using the ConsentID application and is a high-level login. </li>
+</ul>
+<p>The link "Find out more" works only for the "Login with a username and password", go there and 
+see the following sections in the sidebar: "Sign-in with username and password",
+"Sign-in with the ConsentID mobile application", "Sign-in with a qualified electronic certificate".</p>
+<hr />
+<p><a name="index_entry_index_jmbg_jshj"></a></p>
+<h1 id="jmbg">JMBG</h1>
+<p><strong>JMBG (JМБГ, Јединствени Матични Број Грађана)</strong> &mdash; Unique Registration Number of Citizens &mdash;
+a personal identification number that is assigned to all citizens (and residents) of Serbia.</p>
+<p>The JMBG consists of 13 digits in form:
+<code>DD</code><code>MM</code><code>GGG</code><code>RR</code><code>BBB</code><code>K</code>,
+where the fragments are:</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DD</code></td>
+<td>the birth day</td>
+</tr>
+<tr>
+<td><code>MM</code></td>
+<td>the month of birth</td>
+</tr>
+<tr>
+<td><code>GGG</code></td>
+<td>the last three digits of the year of birth</td>
+</tr>
+<tr>
+<td><code>RR</code></td>
+<td>the region of birth or residence</td>
+</tr>
+<tr>
+<td><code>BBB</code></td>
+<td>the unique number</td>
+</tr>
+<tr>
+<td><code>K</code></td>
+<td>the control number</td>
+</tr>
+</tbody>
+</table>
+<p>The region of birth or residence (<code>RR</code>):</p>
+<ul>
+<li>00...09 &mdash; foreigners who received Yugoslavian citizenship</li>
+<li>10...19 &mdash; Bosnia and Herzegovina</li>
+<li>20...29 &mdash; Montenegro</li>
+<li>30...39 &mdash; Croatia</li>
+<li>40...49 &mdash; Macedonia</li>
+<li>50...59 &mdash; Slovenia</li>
+<li>60...69 &mdash; citizens with temporary residence</li>
+<li>70...79 &mdash; Central Serbia</li>
+<li>80...89 &mdash; Autonomous Province of Vojvodina</li>
+<li>90...99 &mdash; Autonomous Province of Kosovo and Metohija</li>
+</ul>
+<p>Unique number (<code>BBB</code>):</p>
+<ul>
+<li>000...499 &mdash; for the male gender</li>
+<li>500...999 &mdash; for the female gender</li>
+</ul>
+<p>The control number (<code>K</code>) is the single-digit number. To calculate it, we write the JMBG in the form A<sub>1</sub>A<sub>2</sub>A<sub>3</sub>A<sub>4</sub>A<sub>5</sub>A<sub>6</sub>A<sub>7</sub>A<sub>8</sub>A<sub>9</sub>A<sub>10</sub>A<sub>11</sub>A<sub>12</sub>A<sub>13</sub> and calculate the sum S:</p>
+<p>S = 7A<sub>1</sub> + 6A<sub>2</sub> + 5A<sub>3</sub> + 4A<sub>4</sub> + 3A<sub>5</sub> +
+2A<sub>6</sub> + 7A<sub>7</sub> + 6A<sub>8</sub> + 5A<sub>9</sub> + 4A<sub>10</sub> +
+3A<sub>11</sub> + 2A<sub>12</sub></p>
+<p>Then the control number <code>K</code> is obtained according to the formula:</p>
+<p>m = S mod 11, i.e. the figure m is equal to the remainder of division the number S by 11. Then
+we use the following rules:</p>
+<ul>
+<li>Version 1. L = 11 - m, then:<ul>
+<li>if 1 &lt;= L &lt;= 9 then control digit K = L</li>
+<li>if L &gt; 9 then control digit K = 0</li>
+</ul>
+</li>
+<li>Version 2:<ul>
+<li>if m = 0 &mdash; control digit K = 0</li>
+<li>if m = 1 &mdash; the registration number is wrong, so the number of BBB increases by 1 and the
+    calculation starts over</li>
+<li>if m is greater than 1 &mdash; control digit K = 11 - m</li>
+</ul>
+</li>
+</ul>
+<p>These versions look equivalent.</p>
+<p><strong>Note!</strong> Looks like now the algorithm is different: if 1 &lt;= m &lt;= 9 (not L) then K = m.</p>
+<p><strong>Example.</strong> Assume the first 12 digits are 170300165123, then:</p>
+<div class="table-compact table-center-header"></div>
+
+<table>
+<thead>
+<tr>
+<th align="right">Position</th>
+<th align="right">JMBG digit</th>
+<th align="right">Factor</th>
+<th align="right">Product</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">7</td>
+<td align="right">7</td>
+</tr>
+<tr>
+<td align="right">2</td>
+<td align="right">7</td>
+<td align="right">6</td>
+<td align="right">42</td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td align="right">0</td>
+<td align="right">5</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td align="right">4</td>
+<td align="right">3</td>
+<td align="right">4</td>
+<td align="right">12</td>
+</tr>
+<tr>
+<td align="right">5</td>
+<td align="right">0</td>
+<td align="right">3</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td align="right">6</td>
+<td align="right">0</td>
+<td align="right">2</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td align="right">7</td>
+<td align="right">1</td>
+<td align="right">7</td>
+<td align="right">7</td>
+</tr>
+<tr>
+<td align="right">8</td>
+<td align="right">6</td>
+<td align="right">6</td>
+<td align="right">36</td>
+</tr>
+<tr>
+<td align="right">9</td>
+<td align="right">5</td>
+<td align="right">5</td>
+<td align="right">25</td>
+</tr>
+<tr>
+<td align="right">10</td>
+<td align="right">1</td>
+<td align="right">4</td>
+<td align="right">4</td>
+</tr>
+<tr>
+<td align="right">11</td>
+<td align="right">2</td>
+<td align="right">3</td>
+<td align="right">6</td>
+</tr>
+<tr>
+<td align="right">12</td>
+<td align="right">3</td>
+<td align="right">2</td>
+<td align="right">6</td>
+</tr>
+<tr>
+<td align="right" class="bg-y">&nbsp;</td>
+<td align="right" class="bg-y">&nbsp;</td>
+<td align="right" class="bg-y" style="text-align:left;"><strong>Sum S</strong></td>
+<td align="right" class="bg-y"><strong>145</strong></td>
+</tr>
+<tr>
+<td align="right" class="bg-y">&nbsp;</td>
+<td align="right" class="bg-y">&nbsp;</td>
+<td align="right" class="bg-y" style="text-align:left;"><strong>S mod 11</strong></td>
+<td align="right" class="bg-y"><strong>2</strong></td>
+</tr>
+</tbody>
+</table>
+<p>So the control number <code>K</code> must be 2.</p>
+<hr />
+<p><a name="index_entry_index_consentid"></a></p>
+<h1 id="consentid">ConsentID</h1>
+<p>ConsentID is probably the only identification artifact that needs to be obtained personally offline.</p>
+<p>See the aforementioned "Sign-in with the ConsentID mobile application" section. There's a link to
+the mobile application that should be installed. There are also links to the elaborate instructions
+(in PDF) about how to setup the application and to register the obtained ConsentID (using QR-code
+scanning or manual number typing in).</p>
+<p>Find the link to the list of the locations (post offices and organizations of some other kinds)
+where the ConsentID may be obtained. 
+Glavna pošta (Central Post Office of Serbia, Takovska 2, Beograd 11101,
+44.81059564600551, 20.466953094499388) was used and it worked pretty well. Lična karta was required.
+The ConsentID is just a sheet of paper (A4) with a QR-code that should be scanned by the mobile
+application. It's probably good to try it right away to avoid additional visits in case of problems.
+So the application should be installed and adjusted (the PIN code is defined) before the visit.</p>
+<hr />
+<p><a name="index_entry_index_lzvwgig_euprava"></a></p>
+<h1 id="euprava">еУправа</h1>
+<p><a href="https://euprava.gov.rs/">https://euprava.gov.rs/</a></p>
+<p>This is the place where the residence questions may be managed and tracked starting from
+residence application.</p>
+<p><img alt="" class="w-fit img-frame" src="../../pict/e_uprava_gov_rs.png" /></p>
+<p><strong>еСандуче</strong> is the mailbox where notifications may be received, particularly about the residence
+application state.</p>
+<p><strong>еПисарница</strong> may probably be used for requesting services and asking questions (wasn't tried yet).</p>
+<p>&nbsp;</p>
+<hr />
+
+<p style="margin-top:0px;margin-bottom:0px;text-align:right;"><a href="../../../readme.html" 
+title="Previous: Home"><img src="../../layout/pict/previous_page.png"
+alt="Back"></a>
+<a href="taxes.html" title="Next: Taxes"><img 
+src="../../layout/pict/next_page.png" alt="Next"></a>
+</p>
+
+<script>
+function toggleSidebar() {
+    let sidebar = document.getElementsByClassName("sidebarWrapper")[0]
+    let display = sidebar.style.display
+    if (!display || display == "none") {
+        sidebar.style.display = "block"
+    } else {
+        sidebar.style.display = ""
+    }
+}
+</script>
+
+</body>
+</html>

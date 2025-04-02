@@ -1,0 +1,148 @@
+<!--VARIABLES {"title": "еУправа", "SORT_ORDER": "010", "code": "resources"}-->
+
+[TOC]
+
+----------------------------------------------------------------------------------------------------
+# Identification {#identification}
+
+<https://eid.gov.rs/>
+
+![](<!--path pict-->eid_gov_rs_home.png){.w-fit .img-frame}
+
+![](<!--path pict-->eid_gov_rs.png){.w-fit .img-frame}
+
+- Login with a username and password is a basic security login.
+    [Instruction](materials/Uputstvo_Za_prijavu_korisnickim_imenom_i_lozinkom.pdf).
+- Logging in with a qualified electronic certificate is a high level of trust.
+- Logging in with a mobile phone is done using the ConsentID application and is a high-level login. 
+
+The link "Find out more" works only for the "Login with a username and password", go there and 
+see the following sections in the sidebar: "Sign-in with username and password",
+"Sign-in with the ConsentID mobile application", "Sign-in with a qualified electronic certificate".
+
+----------------------------------------------------------------------------------------------------
+<!--index ["JMBG", "JМБГ"]-->
+# JMBG {#jmbg}
+
+**JMBG (JМБГ, Јединствени Матични Број Грађана)** --- Unique Registration Number of Citizens ---
+a personal identification number that is assigned to all citizens (and residents) of Serbia.
+
+The JMBG consists of 13 digits in form:
+<code>DD</code><code>MM</code><code>GGG</code><code>RR</code><code>BBB</code><code>K</code>,
+where the fragments are:
+
+Code  | Meaning
+------|--------
+`DD`  | the birth day
+`MM`  | the month of birth
+`GGG` | the last three digits of the year of birth
+`RR`  | the region of birth or residence
+`BBB` | the unique number
+`K`   | the control number
+
+The region of birth or residence (`RR`):
+
+- 00...09 --- foreigners who received Yugoslavian citizenship
+- 10...19 --- Bosnia and Herzegovina
+- 20...29 --- Montenegro
+- 30...39 --- Croatia
+- 40...49 --- Macedonia
+- 50...59 --- Slovenia
+- 60...69 --- citizens with temporary residence
+- 70...79 --- Central Serbia
+- 80...89 --- Autonomous Province of Vojvodina
+- 90...99 --- Autonomous Province of Kosovo and Metohija
+    
+Unique number (`BBB`):
+
+- 000...499 --- for the male gender
+- 500...999 --- for the female gender
+
+The control number (`K`) is the single-digit number. To calculate it, we write the JMBG in the form A<sub>1</sub>A<sub>2</sub>A<sub>3</sub>A<sub>4</sub>A<sub>5</sub>A<sub>6</sub>A<sub>7</sub>A<sub>8</sub>A<sub>9</sub>A<sub>10</sub>A<sub>11</sub>A<sub>12</sub>A<sub>13</sub> and calculate the sum S:
+
+S = 7A<sub>1</sub> + 6A<sub>2</sub> + 5A<sub>3</sub> + 4A<sub>4</sub> + 3A<sub>5</sub> +
+2A<sub>6</sub> + 7A<sub>7</sub> + 6A<sub>8</sub> + 5A<sub>9</sub> + 4A<sub>10</sub> +
+3A<sub>11</sub> + 2A<sub>12</sub>
+
+Then the control number `K` is obtained according to the formula:
+
+m = S mod 11, i.e. the figure m is equal to the remainder of division the number S by 11. Then
+we use the following rules:
+
+- Version 1. L = 11 - m, then:
+    - if 1 <= L <= 9 then control digit K = L
+    - if L > 9 then control digit K = 0
+- Version 2:
+    - if m = 0 --- control digit K = 0
+    - if m = 1 --- the registration number is wrong, so the number of BBB increases by 1 and the
+        calculation starts over
+    - if m is greater than 1 --- control digit K = 11 - m
+    
+These versions look equivalent.
+
+**Note!** Looks like now the algorithm is different: if 1 <= m <= 9 (not L) then K = m.
+
+**Example.** Assume the first 12 digits are 170300165123, then:
+
+<div class="table-compact table-center-header"></div>
+
+| Position | JMBG digit | Factor | Product
+| --------:|-----------:|-------:|-------:
+| 1 | 1 | 7 | 7
+| 2 | 7 | 6 | 42
+| 3 | 0 | 5 | 0
+| 4 | 3 | 4 | 12
+| 5 | 0 | 3 | 0
+| 6 | 0 | 2 | 0
+| 7 | 1 | 7 | 7
+| 8 | 6 | 6 | 36
+| 9 | 5 | 5 | 25
+| 10 | 1 | 4 | 4
+| 11 | 2 | 3 | 6
+| 12 | 3 | 2 | 6
+| &nbsp; {.bg-y} | &nbsp; {.bg-y} | **Sum S** {style="text-align:left;" .bg-y} | **145** {.bg-y}
+| &nbsp; {.bg-y} | &nbsp; {.bg-y} | **S mod 11** {style="text-align:left;" .bg-y} | **2** {.bg-y}
+
+So the control number `K` must be 2.
+
+----------------------------------------------------------------------------------------------------
+<!--index ["ConsentID"]-->
+# ConsentID {#consentid}
+
+ConsentID is probably the only identification artifact that needs to be obtained personally offline.
+
+See the aforementioned "Sign-in with the ConsentID mobile application" section. There's a link to
+the mobile application that should be installed. There are also links to the elaborate instructions
+(in PDF) about how to setup the application and to register the obtained ConsentID (using QR-code
+scanning or manual number typing in).
+
+Find the link to the list of the locations (post offices and organizations of some other kinds)
+where the ConsentID may be obtained. 
+Glavna pošta (Central Post Office of Serbia, Takovska 2, Beograd 11101,
+44.81059564600551, 20.466953094499388) was used and it worked pretty well. Lična karta was required.
+The ConsentID is just a sheet of paper (A4) with a QR-code that should be scanned by the mobile
+application. It's probably good to try it right away to avoid additional visits in case of problems.
+So the application should be installed and adjusted (the PIN code is defined) before the visit.
+
+----------------------------------------------------------------------------------------------------
+<!--index ["еУправа", "eUprava"]-->
+# еУправа {#euprava}
+
+<https://euprava.gov.rs/>
+
+This is the place where the residence questions may be managed and tracked starting from
+residence application.
+
+![](<!--path pict-->e_uprava_gov_rs.png){.w-fit .img-frame}
+
+**еСандуче** is the mailbox where notifications may be received, particularly about the residence
+application state.
+
+**еПисарница** may probably be used for requesting services and asking questions (wasn't tried yet).
+
+
+
+
+
+
+
