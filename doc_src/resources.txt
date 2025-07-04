@@ -12,7 +12,7 @@
 ![](<!--path pict-->eid_gov_rs.png){.w-fit .img-frame}
 
 - Login with a username and password is a basic security login.
-    [Instruction](materials/Uputstvo_Za_prijavu_korisnickim_imenom_i_lozinkom.pdf).
+    [Instruction](<!--path mat-->Uputstvo_Za_prijavu_korisnickim_imenom_i_lozinkom.pdf){.doc}.
 - Logging in with a qualified electronic certificate is a high level of trust.
 - Logging in with a mobile phone is done using the ConsentID application and is a high-level login. 
 

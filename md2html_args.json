@@ -4,13 +4,13 @@
     },
     "default": {
         "input-root": "doc_src",
-        "output-root": "public/content",
+        "output-root": "docs/content",
         "template": "doc_src/templates/multipage.html",
         "no-css": true,
         "verbose": true
         },
     "documents": [
-        { "input-root": "", "output-root": "public", "input": "index.txt", "title": "Home", 
+        { "input-root": "", "output-root": "docs", "input": "index.txt", "title": "Home", 
             "page-flows": ["sections", "nav"] },
         { "input-glob": "*.txt", "page-flows": ["sections", "nav"], 
             "title-from-variable": "title", "code-from-variable": "code", 
@@ -29,9 +29,9 @@
         "relative-paths": {
             "markers": ["path"],
             "paths": {
-                "resource_path": "public/",
-                "pict": "public/pict/",
-                "mat": "public/materials/"
+                "resource_path": "docs/",
+                "pict": "docs/pict/",
+                "mat": "docs/materials/"
             }
         },
         "page-flows": {
@@ -39,9 +39,9 @@
                 { "link": "https://rsegov.nilskikonj.org/index.html", "title": "",
                 "image": "favicon.png", "image_class": "logo_image", "image_alt": "Logo",
                 "external": true },
-                { "link": "public/index.html", "title": "Home", "class": "toggle_wide_only_inline" },
-                { "link": "public/content/index_page.html", "title": "Index", "class": "toggle_wide_only_inline" },
-                { "link": "public/content/index_page.html", "title": "", "class": "toggle_narrow_only_inline",
+                { "link": "docs/index.html", "title": "Home", "class": "toggle_wide_only_inline" },
+                { "link": "docs/content/index_page.html", "title": "Index", "class": "toggle_wide_only_inline" },
+                { "link": "docs/content/index_page.html", "title": "", "class": "toggle_narrow_only_inline",
                     "image": "layout/pict/search.png", "image_class": "header_image index_image",
                     "image_alt": "Index" }
             ],
@@ -53,7 +53,7 @@
         },
         "index": {"index": {"output": "index_page.html", "title": "Index", "index-cache": "index_cache.json", 
                     "index-cache-relative": true, "letters": true, "letters-block": true,
-                    "add-link-css": ["public/layout/index.css"] }
+                    "add-link-css": ["docs/layout/index.css"] }
         },
         "page-links": { "markers": ["page"] }
     }

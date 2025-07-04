@@ -1,6 +1,6 @@
 {
-  "public/index.html": [],
-  "public/content/resources.html": [
+  "docs/index.html": [],
+  "docs/content/resources.html": [
     {
       "entry": "JMBG",
       "link": "resources.html#index_entry_index_jmbg_jshj",
@@ -27,7 +27,7 @@
       "title": "\u0435\u0423\u043f\u0440\u0430\u0432\u0430"
     }
   ],
-  "public/content/taxes.html": [
+  "docs/content/taxes.html": [
     {
       "entry": "\u0435\u041f\u043e\u0440\u0435\u0437\u0438",
       "link": "taxes.html#index_entry_index_lvuwlno_eporezi",
@@ -74,5 +74,5 @@
       "title": "Taxes"
     }
   ],
-  "public/content/troubleshooting.html": []
+  "docs/content/troubleshooting.html": []
 }
