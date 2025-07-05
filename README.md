@@ -1,1 +1,1 @@
-[Start reading](https://erlandvickers.github.io/rsegov/readme.html)
+Serbian governmental resources exploration and description.
